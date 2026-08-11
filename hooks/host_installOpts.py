@@ -194,7 +194,7 @@ nonInteractive=YES
 # post-install reboot without ANY console-paste / password handshake.
 # We deliberately do NOT set a root password: the host's pubkey is the
 # only credential and the build runs with empty-password root.
-sysrc hostname="anyvm.org"
+sysrc hostname="freebsd"
 sysrc sshd_enable="YES"
 sysrc ifconfig_vtnet0="DHCP"
 sysrc ifconfig_vtnet0_ipv6="inet6 ifdisabled"
