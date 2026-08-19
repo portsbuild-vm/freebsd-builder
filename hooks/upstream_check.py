@@ -27,7 +27,7 @@ import urllib.request
 
 URL = "https://download.freebsd.org/releases/VM-IMAGES/"
 TIMEOUT = 60
-USER_AGENT = "anyvm-org-upstream-watcher/1.0"
+USER_AGENT = "portsbuild-org-upstream-watcher/1.0"
 
 # Only a directory whose name ends in the literal "-RELEASE/" counts; the
 # capture group is deliberately the same shape as the old shell script's
