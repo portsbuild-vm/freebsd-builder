@@ -64,7 +64,7 @@ jobs:
 #        tool-cache: false
     - uses: actions/checkout@v7
     - name: Creating Web console
-      uses: anyvm-org/cf-tunnel@v0
+      uses: portsbuild-vm/cf-tunnel@v0
       id: tunnel
       with:
         protocol: http
