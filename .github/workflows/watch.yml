@@ -30,12 +30,12 @@ jobs:
       - name: Detect and land a new upstream release
         run: |
           git switch main || (git fetch --all && git checkout -b main origin/main)
-          git clone https://github.com/anyvm-org/base-builder.git
+          git clone https://github.com/portsbuild-vm/base-builder.git
           # anyvm holds coverage.allow. Without it watch.py cannot tell
           # which variants are deliberately untested, and its suggested
           # allow lines would silently always be empty. Cloned OUTSIDE the
           # repo so it never shows up in this checkout's working tree.
-          git clone --depth 1 https://github.com/anyvm-org/anyvm.git \
+          git clone --depth 1 https://github.com/portsbuild-vm/anyvm.git \
             "${RUNNER_TEMP}/anyvm"
           python3 base-builder/watch.py \
             --allow-file "${RUNNER_TEMP}/anyvm/.github/coverage.allow" \

@@ -12,14 +12,14 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - name: Creating web console
-      uses: anyvm-org/cf-tunnel@v0
+      uses: portsbuild-vm/cf-tunnel@v0
       id: tunnel
       with:
         protocol: http
         port: 8000
     - name: Run vnc tunnel
       id: test
-      uses: anyvm-org/ngrok-tunnel@v0
+      uses: portsbuild-vm/ngrok-tunnel@v0
       with:
         protocol: tcp
         port: 5900
@@ -33,7 +33,7 @@ jobs:
         echo "============================="
         touch /tmp/keepalive
 
-    - uses: neilpang/debugger-action@master
+    - uses: portsbuild-vm/debugger-action@master
 
 
 
