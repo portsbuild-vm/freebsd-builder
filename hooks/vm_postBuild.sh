@@ -23,6 +23,7 @@ mount -u -o async,noatime,rw /
 # Rewrite fstab
 mount -p > /etc/fstab
 
+sysctl -f /etc/sysctl.conf vfs.read_max=128
 
 echo "Applying fastest SSH boot optimizations..."
 
@@ -37,6 +38,8 @@ vfs.zfs.load="NO"
 zfs_load="NO"
 
 hw.hpet.enable=0
+
+kern.maxusers=256
 
 # Do not attach the Hyper-V VMBus driver. Under QEMU+WHPX (Windows hosts)
 # the guest sees Hyper-V CPUID ("Microsoft Hv"), attaches vmbus0, and stalls
