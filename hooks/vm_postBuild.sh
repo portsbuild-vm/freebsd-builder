@@ -29,8 +29,8 @@ loader_logo="NO"
 loader_menu_title="NO"
 
 vfs.zfs.vdev.trim_enable=0
-vfs.zfs.load="YES"
-zfs_load="YES"
+vfs.zfs.load="NO"
+zfs_load="NO"
 
 hw.hpet.enable=0
 
@@ -46,7 +46,7 @@ EOF
 sysrc rc_parallel="YES"
 
 # Required services
-sysrc zfs_enable="YES"
+sysrc zfs_enable="NO"
 sysrc syslogd_enable="YES"
 sysrc cron_enable="YES"
 
