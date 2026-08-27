@@ -15,9 +15,13 @@ service ntpd enable
 
 service ntpd start
 
-kldload  fusefs
+kldload fusefs
 
+# Enable async meta-data updates and noatime
+mount -u -o async,noatime,rw /
 
+# Rewrite fstab
+mount -p > /etc/fstab
 
 
 echo "Applying fastest SSH boot optimizations..."
