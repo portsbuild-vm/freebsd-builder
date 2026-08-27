@@ -26,7 +26,7 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": true
+      "build": false
     },
     {
       "tag": "14.4-powerpc64",
@@ -35,7 +35,7 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": true
+      "build": false
     },
     {
       "tag": "15.0",
@@ -62,7 +62,7 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": true
+      "build": false
     },
     {
       "tag": "15.0-powerpc64",
@@ -71,7 +71,7 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": true
+      "build": false
     },
     {
       "tag": "15.0-gnome",
@@ -125,7 +125,7 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": true
+      "build": false
     },
     {
       "tag": "15.1-powerpc64",
@@ -134,7 +134,7 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": true
+      "build": false
     },
     {
       "tag": "15.1-gnome",
