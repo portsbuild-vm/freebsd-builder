@@ -6,6 +6,9 @@
 | 15.0 | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (nfs,scp,tar) |
 | 14.5 | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (nfs,scp,tar) | ✅ (nfs,scp,tar) |
 | 14.4 | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (nfs,scp,tar) | ✅ (nfs,scp,tar) |
+| 12.4 | ✅ (rsync,scp,sshfs,nfs,tar) | ✅ (nfs,scp,tar) | —[^rv-none] | —[^ppc-panic] |
+| 11.4 | ✅ (rsync,scp,sshfs,nfs,tar) | — | — | — |
+| 10.4 | ✅ (rsync,scp,sshfs,nfs,tar) | — | — | — |
 
 <!-- arch-label: aarch64 = aarch64(arm64) -->
 <!-- absent: 13.4-riscv64 rv-stub -->
