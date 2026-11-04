@@ -53,7 +53,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ["14.5", "14.5-aarch64", "15.1", "15.1-aarch64"]
+        os: ["14.5", "14.5-aarch64", "14.5-riscv64", "14.5-powerpc64", "15.1", "15.1-aarch64", "15.1-riscv64", "15.1-powerpc64"]
     runs-on: ubuntu-26.04
     steps:
 #    - name: Free Disk Space (Ubuntu)
