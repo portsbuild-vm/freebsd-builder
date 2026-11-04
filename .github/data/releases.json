@@ -2,78 +2,6 @@
   "os": "freebsd",
   "releases": [
     {
-      "tag": "10.4",
-      "release": "10.4",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "11.4",
-      "release": "11.4",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "12.4",
-      "release": "12.4",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "12.4-aarch64",
-      "release": "12.4",
-      "arch": "aarch64",
-      "sync": "nfs,scp,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "14.4",
-      "release": "14.4",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": true
-    },
-    {
-      "tag": "14.4-aarch64",
-      "release": "14.4",
-      "arch": "aarch64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": true
-    },
-    {
-      "tag": "14.4-riscv64",
-      "release": "14.4",
-      "arch": "riscv64",
-      "sync": "nfs,scp,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "14.4-powerpc64",
-      "release": "14.4",
-      "arch": "powerpc64",
-      "sync": "nfs,scp,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
       "tag": "14.5",
       "release": "14.5",
       "arch": "x86_64",
@@ -110,69 +38,6 @@
       "build": false
     },
     {
-      "tag": "15.0",
-      "release": "15.0",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": true
-    },
-    {
-      "tag": "15.0-aarch64",
-      "release": "15.0",
-      "arch": "aarch64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": true
-    },
-    {
-      "tag": "15.0-riscv64",
-      "release": "15.0",
-      "arch": "riscv64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "15.0-powerpc64",
-      "release": "15.0",
-      "arch": "powerpc64",
-      "sync": "nfs,scp,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "15.0-gnome",
-      "release": "15.0-gnome",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": true,
-      "build": false
-    },
-    {
-      "tag": "15.0-kde6",
-      "release": "15.0-kde6",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": true,
-      "build": false
-    },
-    {
-      "tag": "15.0-xfce",
-      "release": "15.0-xfce",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": true,
-      "build": false
-    },
-    {
       "tag": "15.1",
       "release": "15.1",
       "arch": "x86_64",
@@ -206,33 +71,6 @@
       "sync": "nfs,scp,tar",
       "shutdown": "/sbin/shutdown -p now",
       "desktop": false,
-      "build": false
-    },
-    {
-      "tag": "15.1-gnome",
-      "release": "15.1-gnome",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": true,
-      "build": false
-    },
-    {
-      "tag": "15.1-kde6",
-      "release": "15.1-kde6",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": true,
-      "build": false
-    },
-    {
-      "tag": "15.1-xfce",
-      "release": "15.1-xfce",
-      "arch": "x86_64",
-      "sync": "rsync,scp,sshfs,nfs,tar",
-      "shutdown": "/sbin/shutdown -p now",
-      "desktop": true,
       "build": false
     }
   ]
