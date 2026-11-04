@@ -2,7 +2,7 @@
 
 [![Build](https://github.com/portsbuild-vm/freebsd-builder/actions/workflows/build.yml/badge.svg)](https://github.com/portsbuild-vm/freebsd-builder/actions/workflows/build.yml)
 
-Latest: v2.3.0
+Latest: v2.3.1
 
 
 The image builder for `freebsd`
